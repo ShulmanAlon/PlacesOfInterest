@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context="com.example.owner.alonshulmanproject2.fragments.SearchFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advancedSearch"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textCategory"
+            android:text="@string/category"
+            android:layout_marginTop="5dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/spinnerCategory"
+            android:layout_toEndOf="@+id/textCategory"
+            android:layout_toRightOf="@+id/textCategory" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/radius"
+            android:id="@+id/textView"
+            android:layout_below="@+id/spinnerCategory"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/spinnerRadius"
+            android:layout_below="@+id/spinnerCategory"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_alignLeft="@+id/spinnerCategory"
+            android:layout_alignStart="@+id/spinnerCategory"
+            android:layout_toRightOf="@+id/textView" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgAdvancedSearch"
+            android:src="@drawable/arrow_30"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/regular_search"
+            android:id="@+id/textSearchMode"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchView"
+            android:layout_toLeftOf="@+id/btnAround"
+            android:layout_toStartOf="@+id/btnAround" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_around"
+            android:id="@+id/btnAround"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/alon_button"
+            android:layout_marginRight="@dimen/alon_margin_large"
+            android:layout_marginEnd="@dimen/alon_margin_large"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerSearch"/>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">AlonShulmanProject2</string>
+    <string name="title_activity_main">Places of interest</string>
+
+    <string name="button_search">Search</string>
+    <string name="button_favorites">Favorites</string>
+    <string name="button_map">Map</string>
+
+    <string name="receiver_power_connected">Power Connected</string>
+    <string name="receiver_power_disconnected">Power Disconnected</string>
+
+    <string name="dialog_item_share">Share place</string>
+    <string name="dialog_item_search_title">Please choose</string>
+    <string name="dialog_item_search_favorite">Add to favorites</string>
+    <string name="dialog_item_favorites_delete">Delete place</string>
+    <string name="dialog_searching_for_places">Searching for places</string>
+    <string name="dialog_exit">Are you sure you want to exit?</string>
+    <string name="dialog_getting_network_location">Getting Network Location</string>
+    <string name="dialog_getting_gps_location">Getting GPS Location</string>
+
+    <string name="prefs_category_units">Units</string>
+    <string name="prefs_units_title">Metric / Imperial</string>
+    <string name="prefs_route_mode">Route Transportation mode</string>
+
+    <string-array name="prefs_units_list">
+        <item>@string/km</item>
+        <item>@string/miles</item>
+    </string-array>
+
+    <string-array name="prefs_units_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="prefs_transportation_modes">
+        <item>@string/driving</item>
+        <item>@string/walking</item>
+    </string-array>
+
+    <string-array name="prefs_transportation_modes_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="mode">Mode</string>
+
+    <string-array name="spinner_radius_km">
+        <item>@string/spinner_radius_1km</item>
+        <item>@string/spinner_radius_1.5km</item>
+        <item>@string/spinner_radius_2km</item>
+        <item>@string/spinner_radius_3km</item>
+        <item>@string/spinner_radius_5km</item>
+        <item>@string/spinner_radius_7km</item>
+        <item>@string/spinner_radius_10km</item>
+        <item>@string/spinner_radius_15km</item>
+    </string-array>
+
+    <string name="spinner_radius_1km">1KM</string>
+    <string name="spinner_radius_1.5km">1.5KM</string>
+    <string name="spinner_radius_2km">2KM</string>
+    <string name="spinner_radius_3km">3KM</string>
+    <string name="spinner_radius_5km">5KM</string>
+    <string name="spinner_radius_7km">7KM</string>
+    <string name="spinner_radius_10km">10KM</string>
+    <string name="spinner_radius_15km">15KM</string>
+
+    <string-array name="spinner_radius_miles">
+        <item>@string/spinner_radius_0.5miles</item>
+        <item>@string/spinner_radius_1miles</item>
+        <item>@string/spinner_radius_1.5miles</item>
+        <item>@string/spinner_radius_2miles</item>
+        <item>@string/spinner_radius_3miles</item>
+        <item>@string/spinner_radius_4miles</item>
+        <item>@string/spinner_radius_6miles</item>
+        <item>@string/spinner_radius_10miles</item>
+    </string-array>
+
+    <string name="spinner_radius_0.5miles">0.5Miles</string>
+    <string name="spinner_radius_1miles">1Miles</string>
+    <string name="spinner_radius_1.5miles">1.5Miles</string>
+    <string name="spinner_radius_2miles">2Miles</string>
+    <string name="spinner_radius_3miles">3Miles</string>
+    <string name="spinner_radius_4miles">4Miles</string>
+    <string name="spinner_radius_6miles">6Miles</string>
+    <string name="spinner_radius_10miles">10Miles</string>
+
+    <string-array name="spinner_category_titles">
+        <item>@string/spinner_category_title_all</item>
+        <item>@string/spinner_category_title_food_and_dining</item>
+        <item>@string/spinner_category_title_arts</item>
+        <item>@string/spinner_category_title_automotive</item>
+        <item>@string/spinner_category_title_bars</item>
+        <item>@string/spinner_category_title_businesses_and_services</item>
+        <item>@string/spinner_category_title_community_and_government</item>
+        <item>@string/spinner_category_title_entertainment</item>
+        <item>@string/spinner_category_title_healthcare</item>
+        <item>@string/spinner_category_title_landmarks</item>
+        <item>@string/spinner_category_title_lodging</item>
+        <item>@string/spinner_category_title_retail</item>
+        <item>@string/spinner_category_title_sports_and_recreation</item>
+        <item>@string/spinner_category_title_transportation</item>
+        <item>@string/spinner_category_title_zoos_aquariums_wildlife_sanctuaries</item>
+    </string-array>
+
+    <string name="spinner_category_title_all">All</string>
+    <string name="spinner_category_title_food_and_dining">Food and Dining</string>
+    <string name="spinner_category_title_arts">Arts</string>
+    <string name="spinner_category_title_automotive">Automotive</string>
+    <string name="spinner_category_title_bars">Bars</string>
+    <string name="spinner_category_title_businesses_and_services">Businesses and Services</string>
+    <string name="spinner_category_title_community_and_government">Community and Government</string>
+    <string name="spinner_category_title_entertainment">Entertainment</string>
+    <string name="spinner_category_title_healthcare">Healthcare</string>
+    <string name="spinner_category_title_landmarks">Landmarks</string>
+    <string name="spinner_category_title_lodging">Lodging</string>
+    <string name="spinner_category_title_retail">Retail</string>
+    <string name="spinner_category_title_sports_and_recreation">Sports and Recreation</string>
+    <string name="spinner_category_title_transportation">Transportation</string>
+    <string name="spinner_category_title_zoos_aquariums_wildlife_sanctuaries">Zoos, Aquariums and Wildlife Sanctuaries</string>
+
+    <string name="menu_open_prefs">Open Preferences</string>
+    <string name="menu_clear_favorites">Clear favorites</string>
+
+    <string name="driving">Driving</string>
+    <string name="walking">Walking</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="delete_favorites_message">This will delete all saved favorites</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="category">Category:</string>
+    <string name="phone">Phone:</string>
+    <string name="website">Website:</string>
+    <string name="radius">Radius:</string>
+    <string name="details">Details:</string>
+
+
+    <string name="toast_no_gps_no_internet_location">GPS and network location are not available</string>
+    <string name="toast_no_internet_after_gps">No internet access after failing to get GPS location</string>
+    <string name="toast_needs_location_permission">This app needs location permission to run properly</string>
+    <string name="toast_place_already_in_favorites">This place is already in your favorites</string>
+    <string name="toast_you_saved">You saved</string>
+    <string name="toast_you_removed">You removed</string>
+    <string name="toast_no_internet">No internet access, please check your connection and try again</string>
+    <string name="toast_no_information">No information yet, please make a search</string>
+
+    <string name="regular_search">Regular search</string>
+    <string name="advanced_search">Advanced search</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="km">KM</string>
+    <string name="miles">Miles</string>
+    <string name="distance">Distance:</string>
+    <string name="eta">ETA:</string>
+    <string name="all_around">All Around</string>
+    <string name="check_this_place">Check this place</string>
+    <string name="address">Address</string>
+    <string name="me">Me</string>
+    <string name="i_am_here">I am here</string>
+    <string name="locality">Locality</string>
+    <string name="name">Name</string>
+
+</resources>

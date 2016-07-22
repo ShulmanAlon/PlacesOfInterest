@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_open_prefs"
+        android:id="@+id/open_prefs"/>
+    <item android:title="@string/menu_clear_favorites"
+        android:id="@+id/clear_favorites"/>
+</menu>
