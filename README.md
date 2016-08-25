@@ -1,13 +1,14 @@
 # PlacesOfInterest
 Project by Alon Shulman
 
-A college project made in april 2016
-Places of interest is combining google map api and factual api to search and show places of interest around you
-search for places by radius and category or just show all the nearest places around you
-save places to favorites, and auto show the last search results on startup
+A college project made in April 2016
 
-in order to activate the google map api, replace the key in the project
+Places of interest is combining google map API and factual API to search and show places of interest around you.
+Search for places by radius and category or just show all the nearest places around you.
+Save places to favorites, and automatically show the last search results on startup.
 
-a lot of difficulties occured while trying to make the map work while changing the orientation of the device
+In order to activate the google map API, replace the key in the project.
 
-as the project was finished before learning drawers and material design, it lacks those
+A lot of difficulties occurred while trying to make the map work while changing the orientation of the device.
+
+As the project was finished before learning drawers and material design, it lacks those.
